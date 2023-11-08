@@ -16,7 +16,7 @@ import com.onesoft.ac.entity.Ac;
 import com.onesoft.ac.service.AcService;
 
 @RestController
-@RequestMapping(value = "/hope")
+@RequestMapping(value = "/admin")
 public class AcController {
 		@Autowired
 		AcService as;
